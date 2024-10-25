@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Резюме Евгения Шаболина</title>
+    <style>
+        /* Центрируем и делаем PDF адаптивным */
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+						width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f4f4f4;
+        }
+        .pdf-container {
+            width: 100%;
+            height: 100vh;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <!-- Контейнер с встроенным PDF -->
+    <embed src="СolorResume(Blue).pdf" type="application/pdf" class="pdf-container">
+</body>
+</html>
